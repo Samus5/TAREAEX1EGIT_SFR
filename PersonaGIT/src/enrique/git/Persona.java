@@ -16,4 +16,10 @@ public class Persona {
 		String mensaje = "Felicidades "+nombre+ " ,has cumplido "+edad+ " años";
 		return mensaje;
 }
+
+public String DatosPersona() {
+	String datos = "Nombre: "+nombre+ "Apellidos: "+apellidos+ "Edad:"+edad;
+	return datos;
+}
+
 }
